@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BouncyCastle.Cryptography" Version="2.5.1" />
+    <PackageReference Include="itext7" Version="9.1.0" />
+    <PackageReference Include="itext7.bouncy-castle-adapter" Version="9.1.0" />
+    <PackageReference Include="PCSC" Version="7.0.0" />
+    <PackageReference Include="PCSC.Iso7816" Version="7.0.0" />
+    <PackageReference Include="Pkcs11Interop" Version="5.3.0" />
+    <PackageReference Include="System.Security.Cryptography.Cng" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
