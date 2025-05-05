@@ -1,41 +1,45 @@
 # WindowsFormsPotpis
 
-A Windows Forms application for digitally signing PDF documents using:
+A Windows Forms application for digitally signing PDF files using either Windows Certificate Store or PKCS#11 smart cards.  
+Supports visible signature layer with custom styles, signature preview, and batch signing mode.
 
-- **Windows Certificate Store** (CSP/KSP)
-- **PKCS#11 compatible tokens/smartcards**
-- Optional **visual signature layer** (text + facsimile image)
-- **Batch signing support**
-- **Custom positioning** of signature via GUI
-- **Optional timestamp**
+---
 
 ## ✨ Features
 
-- ✅ Sign a single PDF file with a certificate from Windows Store or PKCS#11 token.
-- ✅ Batch-sign all PDF files in a folder.
-- ✅ Add a **visible signature layer** with:
-  - Styled text
-  - Custom font, colors
-  - Optional **facsimile image** (e.g. scanned signature)
-- ✅ Visually **select the signature rectangle** by clicking on the PDF.
-- ✅ Supports **timestamping** (optional).
-- ✅ Modern UI with tooltips and error messages.
+- Sign PDF documents with Windows or PKCS#11 certificates
+- Add a visible signature layer (text, facsimile, custom fonts/colors)
+- Preview and set signature position visually
+- Batch-sign multiple PDF files at once
+- Timestamping support (optional)
+- Certificate selection and PIN input for PKCS#11
 
 ---
 
-## 🔧 Requirements
+## 🛠️ Technologies
 
-- .NET 6.0 or newer
-- Visual Studio (or any compatible IDE)
-- iText 9.1.0
-- PKCS#11 middleware for your smartcard (e.g., `netsetpkcs11_x64.dll`)
-- Optional: BouncyCastle, Newtonsoft.Json
+- C# .NET (Windows Forms)
+- [iText 9.1.0](https://itextpdf.com) for PDF manipulation
+- [Pkcs11Interop](https://github.com/Pkcs11Interop/Pkcs11Interop) for smart card access
+- Newtonsoft.Json
 
 ---
 
-## 📦 Installation & Running
+## 📸 Screenshot
 
-1. **Clone the repo**:
-   ```bash
-   git clone https://github.com/yourusername/WindowsFormsPotpis.git
-   cd WindowsFormsPotpis
+*(Insert an optional screenshot here)*
+
+---
+
+## 🤝 Contributors
+
+- **[Your Name]** – Creator & Maintainer  
+- **ChatGPT / Code Assistant (OpenAI)** – Assistant for implementation & guidance  
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for details.  
+⚠️ It also uses **iText 9.1.0**, which is **AGPL v3 licensed**. Redistribution requires open-sourcing your full application or obtaining a commercial iText license.
+
