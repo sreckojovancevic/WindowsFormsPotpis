@@ -40,6 +40,15 @@ Supports visible signature layer with custom styles, signature preview, and batc
 
 ## 📄 License
 
-This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for details.  
-⚠️ It also uses **iText 9.1.0**, which is **AGPL v3 licensed**. Redistribution requires open-sourcing your full application or obtaining a commercial iText license.
+This project is licensed under the MIT License.
+
+⚠️ It includes [iText 9.1.0](https://itextpdf.com), which is licensed under the GNU AGPL v3.
+
+If you use, modify, or distribute this software, you must comply with AGPL v3, which requires that:
+- Your entire software must also be licensed under a compatible open-source license, **or**
+- You obtain a commercial license from iText Software.
+
+- [MIT License](LICENSE)
+- [AGPL v3 – GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.html)
+
 
