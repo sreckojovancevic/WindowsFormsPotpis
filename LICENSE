@@ -1,4 +1,4 @@
-his project is licensed under the [GNU Affero General Public License v3 (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.html)  
+This project is licensed under the [GNU Affero General Public License v3 (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.html)  
 due to the inclusion of the iText 9.1.0 library, which is AGPL-licensed.
 
 If you use, modify, or redistribute this application, **your project must also be fully AGPL-compatible** or you must obtain a commercial license from iText Software.
