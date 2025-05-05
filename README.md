@@ -33,7 +33,7 @@ Supports visible signature layer with custom styles, signature preview, and batc
 
 ## 🤝 Contributors
 
-- **[Your Name]** – Creator & Maintainer  
+- **Srecko Jovancevic ** – Creator & Maintainer  
 - **ChatGPT / Code Assistant (OpenAI)** – Assistant for implementation & guidance  
 
 ---
